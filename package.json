@@ -1,0 +1,16 @@
+{
+  "name": "public-a",
+  "private": false,
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  },
+  "scripts": {
+    "start": "echo 'no script'"
+  },
+  "version": "1.0",
+  "dependencies": {
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
