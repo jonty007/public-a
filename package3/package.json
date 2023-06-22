@@ -1,6 +1,6 @@
 {
   "name": "package3",
-  "version": "1.0",
+  "version": "1.0.0",
   "private": false,
   "description": "Testing",
   "contributors": [
@@ -9,13 +9,14 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "start": "echo 'no script'"
+    "start": "node --loader ts-node/esm index.ts"
   },
   "devDependencies": {
     "@types/node": "^17.0.35"
   },
   "dependencies": {
     "ts-node": "^10.8.0",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.2",
+    "package1-public": "1.0.0"
   }
 }
