@@ -1,4 +1,3 @@
-// @ts-ignore
 import func from "package1-public";
 
 export default function () {

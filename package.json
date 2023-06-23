@@ -1,16 +1,10 @@
 {
   "name": "public-a",
-  "private": true,
+  "private": false,
   "type": "module",
   "devDependencies": {
     "@types/node": "^17.0.35"
   },
-  "workspaces": [
-    "package1-public",
-    "package2-public",
-    "package3",
-    "package4"
-  ],
   "scripts": {
     "start": "echo 'no script'",
     "sym-link": "ln -s ./package1-public ./package3/node_modules/package1-public"
