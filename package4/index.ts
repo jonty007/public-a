@@ -1,3 +1,3 @@
 export default function () {
-  console.log("package4");
+  console.log("Update package4");
 }
